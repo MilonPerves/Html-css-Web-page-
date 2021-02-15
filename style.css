@@ -94,19 +94,30 @@ ul li a:hover:after{
     margin-bottom: 20px
 }
 .hero_content a{
-    text-decoration: none;
+    /* text-decoration: none;
     font-size: 19px;
     background:#09e2ff;
     padding: 8px 20px;
     border-radius: 25px;
-    color: #272741;
+    color: #272741; */
+
+    background: linear-gradient(to right, #65e2d9, #339ecc 100%);
+    background-color: #65e2d9;
+    border-radius: 42px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 12px 60px;
+    text-decoration: none;
+    margin-top: 25px;
 }
 
 /* 2d part css start --- */
 #colabration_wrp{
     background: #181F2A;
     width: 100%;
-    padding: 100px 0px;
+    padding: 120px 0px;
 }
 .colabration{
     display: grid;
@@ -118,7 +129,7 @@ ul li a:hover:after{
 }
 .colabration_single{
     text-align: center;
-    margin-bottom: 130px;
+    margin-bottom: 80px;
 }
 .colabration_dce h4 {
     color: #fff;
@@ -158,6 +169,7 @@ ul li a:hover:after{
     width: 829px;
     position: relative;
     left: 17%;
+    padding-bottom: 75px;
 }
 .productive_conent h1{
     font-size: 45px;
@@ -172,4 +184,154 @@ ul li a:hover:after{
 .productive_conent a {
     color: #09e2ff;
     font-size: 17px;
+}
+
+
+
+#portfolio{
+    background:hsl(216, 53%, 9%);
+    width: 100%;
+    height:100vh;
+}
+.box_wrp{
+    display: grid;
+    grid-template-columns: 290px 290px 290px;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 15px;
+   
+    
+}
+.box_single{
+   position: relative;
+   
+    background: #202A3C;
+    padding: 63px 35px;
+    text-align: right;
+    border-radius: 15px;
+    top: -50%;
+}
+.box_single p {
+    color: #f7f7f7;
+}
+
+.box_single p {
+    color: #c7c7c7;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.contact_info h6 {
+    color: #fff;
+    font-size: 17px;
+}
+
+.contact_info p {
+    font-size: 11px;
+    color: gray;
+}
+
+.contact_photo{
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding-right: 10px;
+   
+}
+
+.contact_photo img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.location_content{
+    width: 800px;
+    position: absolute;
+    left: 15%;
+}
+.location_logo a {
+    text-decoration: none;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 800;
+    padding: 100px;
+    
+}
+.location_dec p{
+    color: gray;
+    padding-top: 50px;
+    font-size: 17px;
+}
+
+
+
+#footer{
+    background: #1C2431;
+}
+
+.suscribe_box {
+    width: 600px;
+    position: relative;
+    background: #1C2431;
+    left: 27%;
+    top: -150px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 3px 1px 20px;
+    z-index: 2;
+}
+.suscribe_content{
+    text-align: center;
+}
+
+.suscribe_content h1 {
+    color: #fff;
+    font-size: 41px;
+    padding: 22px;
+}
+
+.suscribe_content p {
+    color: gray;
+    padding-bottom: 17px;
+}
+
+.suscribe_content h1 {
+    color: #fff;
+    font-size: 41px;
+    padding: 22px;
+}
+
+.suscribe_content p {
+    color: gray;
+    padding-bottom: 17px;
+}
+
+.suscribe_input input {width: 400px;font-size: 18px;padding: 15px;border-radius: 25px; border: none; outline: none;}
+.btn{
+    
+    background: linear-gradient(to right, #65e2d9, #339ecc 100%);
+    background-color: #65e2d9;
+    border-radius: 42px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 12px 60px;
+    text-decoration: none;
+    margin-top: 25px;
+
+}
+
+.copyrigth{
+    width: 100%;
+    text-align: center;
+}
+.copyrigth p {
+    color: #fff;
+    font-size: 17px;
+}
+
+.copyrigth p span {
+    color: #09e2ff;
 }
